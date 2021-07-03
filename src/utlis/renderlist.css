@@ -1,0 +1,23 @@
+.root{
+    list-style-type: none;
+}
+
+.img{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.container{
+    border: 2px solid blue;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.container:hover{
+    color: red;
+    text-decoration: underline;
+}

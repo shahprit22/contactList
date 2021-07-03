@@ -1,0 +1,16 @@
+ListItem {
+    border: 5px solid black;
+    border-radius: 50px;
+}
+
+.list {
+    width: '100%';
+    max-width: '36ch';
+    background-color: 'blue';
+    padding:10px
+}
+
+.maincontainer {
+    background-color: lightcyan;
+    /* margin-left: 525px; */
+}
