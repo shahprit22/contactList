@@ -6,6 +6,7 @@ const Favourite = (props) => {
         <>
         <button style={{float:'left'}} onClick={goback} > Go back</button>
         <br/>
+        <br/>
         <ul className="root">
             {favourite.map(item => 
                 <>

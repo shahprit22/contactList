@@ -38,12 +38,12 @@ class RenderList extends Component {
      }
 
     render() { 
-        const {data,sortingHandler} = this.props
+        const {data,sortingHandler,sorting} = this.props
         const {newComponent,itemToPass,showfavourite, favourite} = this.state
     return ( 
         newComponent ? 
         <>
-        <select style={{float:'left'}} onChange={sortingHandler}>
+        <select value={sorting} style={{float:'left'}} onChange={sortingHandler}>
             <option>A-Z</option>
             <option>Z-A</option>
         </select>

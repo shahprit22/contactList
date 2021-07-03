@@ -47,11 +47,11 @@ class ContactList extends Component {
 
     render() { 
         console.log(this.state.data)
-        const {data} = this.state
+        const {data,sorting} = this.state
         return ( 
             <div className="maincontainer">
                 
-                <RenderList data={data} sortingHandler={this.sortingHandler} />
+                <RenderList data={data} sorting={sorting} sortingHandler={this.sortingHandler} />
             </div>
          );
     }
